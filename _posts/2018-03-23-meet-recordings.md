@@ -21,7 +21,7 @@ image: "/images/mindmap1.0.png"
 
 ### 任务三：初步组建团队
 * 讨论项目模块
-* 讨论成员分工：[成员分工](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/1_responsibility_assignment.md)
+* 讨论成员分工：[成员分工](https://dramatictickets.github.io/about/)
 * 讨论初次迭代周期及任务。
 
 ### 思维导图如图：
