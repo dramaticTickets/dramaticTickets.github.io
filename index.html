@@ -1,0 +1,131 @@
+---
+layout: null
+title: Jekyll Theme - Home Page - Massively
+description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    {% include head.html %}
+
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+            <h1>{{site.title}}</h1>
+						<!-- <h2>The Jekyll Theme Version</h2> -->
+						<p>Project of Software System Analysis and Design by Maolin Pan, SYSU, 2018</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+						<ul class="icons">
+              <!-- <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li> -->
+              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">About</a></h2>
+									<p>本项目的开发过程记录</p>
+								</header>
+									<h3>Core Artifacts</h3>
+									<h3>Iteration</h3>
+									<strong>Iteration 1</strong></br>
+									<strong>目标</strong></br>
+									<ul>
+										<li>确定使用的开发框架和技术并进行学习</li>
+										<li>设计后端服务器、数据库的接口等</li>
+										<li>进行初步的App原型开发</li>
+									</ul>
+									<strong>Week 1（2018.3.26）</strong></br>
+									<ul>
+										<li>需求分析：给出此次迭代的需求</li>
+										<li>概要设计 & 详细设计：无</li>
+										<li>编码 & 测试：对服务器，数据库和Android的结合进行初步了解和学习</li>
+									</ul>
+									<strong>Week 2</strong></br>
+									<ul>
+										<li>需求分析：完善需求</li>
+										<li>概要设计 & 详细设计：进行服务器、数据库的接口设计，初步设计app的界面</li>
+										<li>编码 & 测试：无</li>
+									</ul>
+									<strong>Week 3</strong></br>
+									<ul>
+										<li>需求分析：确定下一轮迭代需求</li>
+										<li>概要设计 & 详细设计：完善接口设计和数据库设计和app界面设计</li>
+										<li>编码 & 测试：完成查询电影信息部分的app代码编写；完成数据库和服务器的初步搭建。</li>
+									</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+                {% for post in site.posts limit:3 %}
+                {% assign mod3 = forloop.index | modulo: 3 %}
+  								<article>
+  									<header>
+  										<span class="date">{{ post.date | date_to_string }}</span>
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">More</a></li>
+  									</ul>
+  								</article>
+                {% endfor %}
+
+							</section>
+
+						<!-- Footer -->
+							<footer>
+                <ul class="actions">
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+                </ul>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+    {% include tracking.html %}
+
+	</body>
+</html>
