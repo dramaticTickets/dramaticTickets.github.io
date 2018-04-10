@@ -28,7 +28,7 @@ image: "/images/mindmap1.0.png"
 * 讨论初次迭代周期及任务。
 
 ### 思维导图如图：
-<img alt="思维导图" src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE1.0.png?raw=true" width="800px" />
+<img alt="思维导图" src="/images/mindmap1.0.png" />
 
 ---
 # 第二次会议记录
@@ -54,4 +54,4 @@ image: "/images/mindmap1.0.png"
   * 根据电影院购买电影票 
 
 * 初步设计UI-process如图：
-  <img alt="思维导图" src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/UI-process.jpg?raw=true"  width="800px" />
+  <img alt="思维导图" src="/images/UIflow.png" />
