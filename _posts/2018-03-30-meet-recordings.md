@@ -54,4 +54,4 @@ image: "/images/mindmap1.0.png"
   * 根据电影院购买电影票 
 
 * 初步设计UI-process如图：
-  ![UI流程图](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/UI-process.jpg?raw=true)
+  <img alt="思维导图" src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/UI-process.jpg?raw=true"  width="800px" />
