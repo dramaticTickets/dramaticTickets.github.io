@@ -28,7 +28,7 @@ image: "/images/mindmap1.0.png"
 * 讨论初次迭代周期及任务。
 
 ### 思维导图如图：
-<img alt="思维导图" src="/images/mindmap1.0.png" />
+<img alt="思维导图" src="/images/mindmap1.0.png?raw=true" width="800px"/>
 
 ---
 # 第二次会议记录
