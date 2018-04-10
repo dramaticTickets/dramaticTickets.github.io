@@ -52,6 +52,6 @@ image: "/images/mindmap1.0.png"
   * 查看电影资讯
   * 购买电影票
   * 根据电影院购买电影票 
-
 * 初步设计UI-process如图：
   <img alt="思维导图" src="/images/UIflow.png" />
+
